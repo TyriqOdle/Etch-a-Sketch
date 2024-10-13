@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./js.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Etch-a-Sketch</h1>
+    </header>
+    
+    <div class="settings">
+        <label for="gridSize">Grid Size</label>
+        <input type="number" min="1" max="100" value="16" id="gridSize">
+        <input type="color" name="colorSelector" value="#00f0b5" id="Color">
+    </div>
+    <div class="eraser">
+        <p class="eraser-text">Press "CTRL" for eraser | Eraser: OFF </p>
+    </div>
+
+    <div class="gridholder">
+        
+        <div class="grid"></div>
+    </div>
+
+
+
+</body>
+</html>
